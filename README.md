@@ -1,5 +1,23 @@
 # VSL Compiler
 
+## A high-level overview
+
+### 1 - Generating the abstract syntax tree (AST)
+
+![Overview of the abstract syntax tree](/assets/overview.png)
+
+### 2 - Simplifying the abstract syntax tree
+
+![Simplified abstract syntax tree](/assets/simplified.png)
+
+### 3 - Creating the symbol table
+
+![Symbol table](/assets/symbol-table.png)
+
+### 4 - Generating the assembly code
+
+![Assembly code](/assets/assembly.png)
+
 ## A general note
 
 Because this compiler features a lot of assembly code on the ELF format, the preferred way to run this is using a Linux machine. Personally, I use a Mac, so the easiest way I found to run this is to open the entire project using **GitHub Codespaces**, and then coding and running the project in the browser or using remote Visual Studio Code. On GitHub, navigate to `Code -> Codespaces -> + -> Open in... -> Browser or Visual Studio Code`. This will open the project in a Linux environment, and you can run the code using the commands below.
